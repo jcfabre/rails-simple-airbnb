@@ -1,0 +1,31 @@
+.flat-show-card {
+  box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+  padding: 10px;
+  background: #F8F9FA;
+  margin:10px;
+  border-radius: 2px;
+}
+
+.wrapper {
+  background: white;
+}
+
+.map {
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+.margin-top-negative {
+  margin-top: -75px;
+}
+
+.social-flex {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-icons {
+}

@@ -1,0 +1,22 @@
+<div class="wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 col-offset-sm-3 new-flat-form">
+        <h1>Add a new flat</h1>
+        <%= simple_form_for @flat do |f| %>
+          <%= f.input :name %>
+          <%= f.input :address %>
+          <%= f.input :description %>
+          <%= f.input :picture_url %>
+          <%= f.input :number_of_guests %>
+          <%= f.input :price_per_night %>
+          <%= f.submit "Create flat", class: "btn btn-primary" %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
